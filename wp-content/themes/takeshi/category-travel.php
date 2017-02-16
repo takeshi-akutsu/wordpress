@@ -54,10 +54,10 @@
               <div class="img_overlay"></div>
               <span class="img_box">
                 <?php
-                // カテゴリーのアイキャッチ画像を表示する&imgタグの状態で出力 TODO: URLで取得できるように
-                $image = get_field('category-image', 'category_' . $catIDs[$i]);
-                echo wp_get_attachment_image($image['id'], 'large');
+                  $category_image = get_field('category-image', 'category_' . $catIDs[$i]);
+                  $image = wp_get_attachment_image_src($category_image, 'full')[0];
                 ?>
+                <img src="<?php echo $image ?>" alt="<?php echo get_catname($catIDs[$i]); ?>">
               </span><!-- img_box -->
               <div class="text_box">
                 <div class="text_area">

@@ -4,17 +4,15 @@
  */
 get_header(); ?>
 
+
+<!-- PHP: カテゴリー画像取得の処理 -->
 <?php
   $queried_object = get_queried_object();
   $taxonomy = $queried_object->taxonomy;
   $term_id = $queried_object->term_id;
-  $cat_image = get_field('cat_image', $taxonomy . '_' . $term_id);
+  $cat_image = get_field('category-image', $taxonomy . '_' . $term_id);
   $size = 'full';
   $image = wp_get_attachment_image_src($cat_image, $size)[0];
-
-  if( $image ) {
-    echo '<div class="category-image"><img src="' . $image . '" alt="' . single_cat_title('', false) . '"></div>';
-  }
 ?>
 
 
@@ -28,8 +26,8 @@ get_header(); ?>
         </span>
       </h1>
     </div>
-    <figure style="background-image:url(http://tabippo.net/wp-content/uploads/shutterstock_313805903.jpg);">
-      <img src="http://tabippo.net/wp-content/uploads/shutterstock_313805903.jpg" alt="<?php single_cat_title(); ?>">
+    <figure style="background-image:url(<?php echo $image ?>);">
+      <img src="<?php echo $image ?>" alt="<?php single_cat_title(); ?>">
     </figure>
   </header>
 

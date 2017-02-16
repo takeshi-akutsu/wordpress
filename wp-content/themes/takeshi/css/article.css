@@ -1,0 +1,40 @@
+article .contents_wrapper {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+}
+article .contents_wrapper .contents {
+  width: 760px;
+  margin: 0 auto;
+  padding: 40px 0 0;
+}
+article .contents_wrapper .contents .post_content h1 {
+  font-size: 200% !important;
+  line-height: 1.35em !important;
+  margin-bottom: 1.1em !important;
+}
+article .contents_wrapper .contents .post_content h2 {
+  font-size: 150% !important;
+  line-height: 1.0em !important;
+  margin-bottom: 1.0em !important;
+}
+article .contents_wrapper .contents .post_content p {
+  font-size: 105% !important;
+  line-height: 1.9rem !important;
+}
+article .contents_wrapper .contents .post_content h3 {
+  font-size: 145% !important;
+  line-height: 1.5em !important;
+}
+article .contents_wrapper .contents .post_content h1, article .contents_wrapper .contents .post_content h2, article .contents_wrapper .contents .post_content h3, article .contents_wrapper .contents .post_content h4, article .contents_wrapper .contents .post_content h5 {
+  font-weight: bold !important;
+}
+article .contents_wrapper .contents .post_content blockquote {
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  margin-bottom: 30px;
+  color: #444444 !important;
+  border: none !important;
+}
+
+/*# sourceMappingURL=article.css.map */

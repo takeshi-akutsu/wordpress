@@ -1,0 +1,55 @@
+article {
+  .contents_wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    .contents {
+      width: 760px;
+      margin: 0 auto;
+      padding: 40px 0 0;
+      .post_content {
+        h1 {
+          font-size: 200% !important;
+          line-height: 1.35em !important;
+          margin-bottom: 1.1em !important;
+        }
+        h2 {
+          font-size: 150% !important;
+          line-height: 1.0em !important;
+          margin-bottom: 1.0em !important;
+        }
+        p {
+          font-size: 105% !important;
+          line-height: 1.9rem !important;
+        }
+        h3 {
+          font-size: 145% !important;
+          line-height: 1.5em !important;
+        }
+        h1, h2, h3, h4, h5 {
+          font-weight: bold !important;
+        }
+        ul {
+          li {
+
+          }
+        }
+        ol {
+          li {
+
+          }
+        }
+        blockquote {
+          padding: 10px 15px;
+          background-color: #f8f9fa;
+          margin-bottom: 30px;
+          color: #444444 !important;
+          border: none!important;
+        }
+      }
+
+      .comment_content {
+      }
+    }
+  }
+}

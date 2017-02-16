@@ -1,0 +1,26 @@
+header .header_container {
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .header_container .main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 13px 0;
+  width: 960px;
+}
+header .header_container .main_header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=header.css.map */

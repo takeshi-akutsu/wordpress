@@ -53,9 +53,28 @@
           <img src="https://d2hi3epuv5qhwt.cloudfront.net/assets/renewal/logo-2256c44c102d2e23c5303d219bf09b85.svg" alt="">
         </a>
       </h2>
+      <a id="js-click-menu" class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </div>
   </div>
 </header>
+
+<div class="menu_wrapper" id="js-menu">
+  <!-- <ul class="menu unstyled">
+  <li class="menu-search">
+  <form accept-charset="UTF-8" action="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+  <input class="search-input js-search" type="text" placeholder="Search" name="q">
+  </form> </li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/archive">Archive</a></li>
+  <li><a href="http://junglesinparis.tumblr.com/">Blog</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="#" class="js-modal-opener" data-target="#newsletter-modal">Follow</a></li>
+  </ul> -->
+</div>
 
 
 <!-- ==========================================HEADER========================================== -->

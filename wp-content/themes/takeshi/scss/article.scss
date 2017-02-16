@@ -1,4 +1,5 @@
 article {
+  font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif;
   .contents_wrapper {
     position: relative;
     z-index: 2;
@@ -9,25 +10,27 @@ article {
       padding: 40px 0 0;
       .post_content {
         h1 {
-          font-size: 200% !important;
-          line-height: 1.35em !important;
-          margin-bottom: 1.1em !important;
+          font-size: 3.3rem !important;
+          line-height: 3.0rem !important;
+          margin-bottom: 2.2rem !important;
         }
         h2 {
-          font-size: 150% !important;
-          line-height: 1.0em !important;
-          margin-bottom: 1.0em !important;
+          font-size: 3.0rem !important;
+          line-height: 2.8em !important;
+          margin-bottom: 2.0em !important;
         }
         p {
-          font-size: 105% !important;
-          line-height: 1.9rem !important;
+          font-size: 2.0rem !important;
+          line-height: 2.8rem !important;
         }
         h3 {
-          font-size: 145% !important;
-          line-height: 1.5em !important;
+          font-size: 2.5rem !important;
+          line-height: 2.6em !important;
         }
         h1, h2, h3, h4, h5 {
+          letter-spacing: .2rem;
           font-weight: bold !important;
+          font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif !important;
         }
         ul {
           li {
@@ -46,6 +49,11 @@ article {
           color: #444444 !important;
           border: none!important;
         }
+        img {
+          width: 100%;
+          max-width: 760px;
+          height: auto;
+        }
       }
 
       .comment_content {
@@ -53,3 +61,5 @@ article {
     }
   }
 }
+
+

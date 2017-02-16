@@ -147,3 +147,10 @@ function themename_css() {
 }
 
 add_action( 'wp_enqueue_scripts', 'themename_css' );
+
+
+function menu() {
+	wp_enqueue_script( 'jquery' );
+  wp_enqueue_script('my_menu_scripts', get_template_directory_uri().'/js/menu.js');
+}
+add_action('wp_enqueue_scripts', 'menu');

@@ -31,7 +31,9 @@ module.exports = function (grunt) {
             'css/footer.css',
             'css/header.css',
             'css/article.css',
-            'css/travel.css'
+            'css/travel.css',
+            'css/about.css',
+            'css/menu.css'
           ]
         }
       }
@@ -55,7 +57,9 @@ module.exports = function (grunt) {
           'css/footer.css',
           'css/header.css',
           'css/article.css',
-          'css/travel.css'
+          'css/travel.css',
+          'css/about.css',
+          'css/menu.css'
         ],
         tasks: ['cssmin']
       }

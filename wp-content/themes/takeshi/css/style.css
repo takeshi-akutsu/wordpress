@@ -13,7 +13,7 @@ body {
   padding-top: 180px;
 }
 .content_header .content_header_inner h1 {
-  font-size: 30px;
+  font-size: 4rem;
   line-height: 1.6;
   text-align: center;
 }
@@ -79,7 +79,7 @@ body {
 .contents_wrapper .contents {
   margin: 0 auto;
   padding: 35px 0 10px;
-  width: 960px !important;
+  width: 960px;
 }
 .contents_wrapper .contents ul.article_list {
   margin: 0;

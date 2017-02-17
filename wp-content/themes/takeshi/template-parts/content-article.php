@@ -20,13 +20,12 @@ $image_url = wp_get_attachment_image_src($image_id, true);
   <header class="content_header">
     <div class="content_header_inner">
       <h1>
-        <span>
-          <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-        </span>
+        <?php the_title(); ?>
       </h1>
-      <ul>
-        <li>Posted on <time datetime="2014-04-02">April 2th, 2014</time></li>
-        <li>Category : <a href="http://www.nxworld.net/category/wordpress/" class="cat-wordpress">WordPress</a></li>
+      <ul class="meta_contents">
+        <li>Posted on <?php the_date() ?></li>
+        <!-- <li>Category : <a href="http://www.nxworld.net/category/wordpress/" class="cat-wordpress"></a></li> -->
+        <!-- <?php the_category(); ?> -->
       </ul>
     </div>
     <?php if ( has_post_thumbnail() ) { ?>
@@ -48,6 +47,9 @@ $image_url = wp_get_attachment_image_src($image_id, true);
 
       <div class="comment_content">
         <!-- comments_template() -->
+      </div>
+      <div class="related_articles">
+        
       </div>
     </div>
   </div>

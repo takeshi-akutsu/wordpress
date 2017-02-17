@@ -1,37 +1,42 @@
 footer {
-  max-width: 600px;
-  margin: 10px auto;
-  padding: 25px 5px;
-  font-size: 16px;
+  .footer_wrapepr {
+    background-color: #f7f9f9;
+    .footer_contents {
+      max-width: 600px;
+      margin: 0px auto;
+      padding: 25px 5px;
+      font-size: 16px;
 
-  .footer_menu {
-    font-size: .6rem;
-    text-align: center;
-    font-family: "Quicksand","Futura-Medium","Century Gothic";
-    margin: 1rem auto 7rem;
-    line-height: 1.7rem;
-    letter-spacing: .08rem;
+      .footer_menu {
+        font-size: .6rem;
+        text-align: center;
+        font-family: "Quicksand","Futura-Medium","Century Gothic";
+        margin: 1rem auto 7rem;
+        line-height: 1.7rem;
+        letter-spacing: .08rem;
 
-    ul.sns_buttons {
-      list-style-type: none;
-      -webkit-padding-start: 0;
-      li {
-        display: inline-block;
-        margin: 0 5px;
+        ul.sns_buttons {
+          list-style-type: none;
+          -webkit-padding-start: 0;
+          li {
+            display: inline-block;
+            margin: 0 5px;
+          }
+        }
+      }
+      .copyright {
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: Quicksand, Futura-Medium, "Century Gothic", HiraKakuProN-W3, 游ゴシック, メイリオ, Meiryo;
+        line-height: 1.7rem;
+        letter-spacing: 0.2rem;
+        margin: 3rem auto;
+      }
+      h4.footer_title {
+      margin: 10px auto 0;
+      text-align: center;
+      font-family: "Quicksand","Futura-Medium","Century Gothic";
       }
     }
-  }
-  .copyright {
-    font-size: 0.8rem;
-    text-align: center;
-    font-family: Quicksand, Futura-Medium, "Century Gothic", HiraKakuProN-W3, 游ゴシック, メイリオ, Meiryo;
-    line-height: 1.7rem;
-    letter-spacing: 0.2rem;
-    margin: 3rem auto;
-  }
-  h4.footer_title {
-  margin: 10px auto 0;
-  text-align: center;
-  font-family: "Quicksand","Futura-Medium","Century Gothic";
   }
 }

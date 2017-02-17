@@ -1,11 +1,14 @@
 @charset "UTF-8";
-footer {
+footer .footer_wrapepr {
+  background-color: #f7f9f9;
+}
+footer .footer_wrapepr .footer_contents {
   max-width: 600px;
-  margin: 10px auto;
+  margin: 0px auto;
   padding: 25px 5px;
   font-size: 16px;
 }
-footer .footer_menu {
+footer .footer_wrapepr .footer_contents .footer_menu {
   font-size: .6rem;
   text-align: center;
   font-family: "Quicksand","Futura-Medium","Century Gothic";
@@ -13,15 +16,15 @@ footer .footer_menu {
   line-height: 1.7rem;
   letter-spacing: .08rem;
 }
-footer .footer_menu ul.sns_buttons {
+footer .footer_wrapepr .footer_contents .footer_menu ul.sns_buttons {
   list-style-type: none;
   -webkit-padding-start: 0;
 }
-footer .footer_menu ul.sns_buttons li {
+footer .footer_wrapepr .footer_contents .footer_menu ul.sns_buttons li {
   display: inline-block;
   margin: 0 5px;
 }
-footer .copyright {
+footer .footer_wrapepr .footer_contents .copyright {
   font-size: 0.8rem;
   text-align: center;
   font-family: Quicksand, Futura-Medium, "Century Gothic", HiraKakuProN-W3, 游ゴシック, メイリオ, Meiryo;
@@ -29,7 +32,7 @@ footer .copyright {
   letter-spacing: 0.2rem;
   margin: 3rem auto;
 }
-footer h4.footer_title {
+footer .footer_wrapepr .footer_contents h4.footer_title {
   margin: 10px auto 0;
   text-align: center;
   font-family: "Quicksand","Futura-Medium","Century Gothic";

@@ -2,6 +2,10 @@ body {
   background-color: #f7f9f9 !important;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .content_header {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -16,22 +20,17 @@ body {
   font-size: 4rem;
   line-height: 1.6;
   text-align: center;
-}
-.content_header .content_header_inner h1 span {
-  display: inline-block;
-  text-align: left;
-}
-.content_header .content_header_inner h1 span a {
   color: #fff;
 }
-.content_header .content_header_inner ul {
+.content_header .content_header_inner ul.meta_contents {
   position: absolute;
   width: 100%;
   bottom: 40px;
   margin-top: 0;
   text-align: center;
+  padding: 0;
 }
-.content_header .content_header_inner ul::before {
+.content_header .content_header_inner ul.meta_contents::before {
   position: absolute;
   top: -40px;
   left: 50%;
@@ -41,14 +40,12 @@ body {
   margin-left: -60px;
   background-color: #fff;
 }
-.content_header .content_header_inner ul::before li {
-  color: #fff;
+.content_header .content_header_inner ul.meta_contents li {
+  display: inline;
+  color: #fff !important;
   font-size: 15px;
 }
-.content_header .content_header_inner ul::before li:first-child {
-  margin: 0 40px 0 0;
-}
-.content_header .content_header_inner ul::before li a {
+.content_header .content_header_inner ul.meta_contents li a {
   color: #fff;
   font-size: 15px;
 }

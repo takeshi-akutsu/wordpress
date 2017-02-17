@@ -21,9 +21,7 @@ get_header(); ?>
 <header class="content_header">
     <div class="content_header_inner">
       <h1>
-        <span>
-          <a href="<?php echo get_permalink(); ?>"><?php single_cat_title(); ?></a>
-        </span>
+        <?php single_cat_title(); ?>
       </h1>
     </div>
     <figure style="background-image:url(<?php echo $image ?>);">

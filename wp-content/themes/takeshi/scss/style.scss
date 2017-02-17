@@ -1,6 +1,9 @@
 body {
   background-color: #f7f9f9!important;
 }
+a:hover {
+  text-decoration: none;
+}
 
 
 .content_header {
@@ -15,20 +18,15 @@ body {
       font-size: 4rem;
       line-height: 1.6;
       text-align: center;
-      span {
-        display: inline-block;
-        text-align: left;
-        a {
-          color: #fff;
-        }
-      }
+      color: #fff;
     }
-    ul {
+    ul.meta_contents {
       position: absolute;
       width: 100%;
       bottom: 40px;
       margin-top: 0;
       text-align: center;
+      padding: 0;
       &::before {
         position: absolute;
         top: -40px;
@@ -38,16 +36,17 @@ body {
         height: 1px;
         margin-left: -60px;
         background-color: #fff;
-        li {
+      }
+      li {
+        display: inline;
+        color: #fff!important;
+        font-size: 15px;
+        &:first-child {
+          // margin: 0 40px 0 0;
+        }
+        a {
           color: #fff;
           font-size: 15px;
-          &:first-child {
-            margin: 0 40px 0 0;
-          }
-          a {
-            color: #fff;
-            font-size: 15px;
-          }
         }
       }
     }

@@ -17,7 +17,7 @@ get_header(); ?>
 <div id="home">
 	<div class="contents_wrapper">
 	  <div class="contents clearfix">
-	    <ul class="article_list">
+	    <!-- <ul class="article_list"> -->
 		<?php
 		if ( have_posts() ) :
 
@@ -48,7 +48,7 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
-			</ul><!-- article_list -->
+			<!-- </ul> --><!-- article_list -->
 	  </div><!-- contents -->
 	</div><!-- contents_wrapper -->
 </div><!-- #home -->

@@ -154,3 +154,10 @@ function menu() {
   wp_enqueue_script('my_menu_scripts', get_template_directory_uri().'/js/menu.js');
 }
 add_action('wp_enqueue_scripts', 'menu');
+
+
+// excerptの最後の文字列を変更
+function new_excerpt_more($more) {
+	return ' ...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');

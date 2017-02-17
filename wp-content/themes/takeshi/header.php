@@ -30,7 +30,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body class="js-body" <?php body_class(); ?>>
 <div id="page" class="site">
 
 

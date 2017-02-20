@@ -45,26 +45,24 @@
 <!-- ==========================================HEADER========================================== -->
 
 
-<header>
-  <div class="header_container">
-    <div class="main_header">
-      <h2>
-        <a href="/wordpress/">
-          <img src="https://d2hi3epuv5qhwt.cloudfront.net/assets/renewal/logo-2256c44c102d2e23c5303d219bf09b85.svg" alt="">
-        </a>
-      </h2>
-      <a id="js-click-menu" class="menu-trigger" href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </div>
+<header id="main_header">
+  <div class="header_container clearfix">
+    <div class="sns_icons"></div>
+    <a href="/wordpress/" class="header_logo">
+      <h1 class="header_title">On the road</h1>
+      <!-- <img src="https://d2hi3epuv5qhwt.cloudfront.net/assets/renewal/logo-2256c44c102d2e23c5303d219bf09b85.svg" alt=""> -->
+    </a>
+    <a id="js-click-menu" class="menu-trigger hamburger" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
   </div>
 </header>
 
 <div class="menu_wrapper" id="js-menu">
 <div class="menu_inner">
-  <ul>
+  <ul class="menu_list">
     <li><a href="/wordpress/">HOME</a></li>
     <li><a href="/wordpress/about">ABOUT</a></li>
     <li><a href="/wordpress/category/travel">BLOG</a></li>

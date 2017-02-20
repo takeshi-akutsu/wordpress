@@ -45,27 +45,19 @@
 
   <div class="contents_wrapper">
     <div class="contents clearfix">
-      <ul class="country_list">
-        <?php for($i=0; $i<count($catIDs); $i++) { $cats = get_category($catIDs[$i]); ?><!-- ループしてHTMLを作成 開始-->
-          <li class="country_box">
-            <a href="<?php echo get_category_link($catIDs[$i]); ?>">
-              <div class="img_overlay"></div>
-              <span class="img_box">
-                <?php
-                  $category_image = get_field('category-image', 'category_' . $catIDs[$i]);
-                  $image = wp_get_attachment_image_src($category_image, 'full')[0];
-                ?>
-                <img src="<?php echo $image ?>" alt="<?php echo get_catname($catIDs[$i]); ?>">
-              </span><!-- img_box -->
-              <div class="text_box">
-                <div class="text_area">
-                  <p><?php echo get_catname($catIDs[$i]); ?></p>
-                </div>
-              </div><!-- text_box -->
-            </a>
-          </li><!-- country_box -->
-        <?php } ?><!-- ループしてHTMLを作成 終わり-->
-      </ul><!-- country-list -->
+      <?php for($i=0; $i<count($catIDs); $i++) { $cats = get_category($catIDs[$i]); ?><!-- ループしてHTMLを作成 開始-->
+        <?php
+          $category_image = get_field('category-image', 'category_' . $catIDs[$i]);
+          $image = wp_get_attachment_image_src($category_image, 'full')[0];
+        ?>
+        <div class="category_box">
+          <a href="<?php echo get_category_link($catIDs[$i]); ?>">
+            <div class="title_box">
+              <h2><?php echo get_catname($catIDs[$i]); ?></h2>
+            </div>
+          </a>
+        </div><!-- category_box -->
+      <?php } ?><!-- ループしてHTMLを作成 終わり-->
     </div><!-- contents -->
   </div><!-- contents_wrapper -->
 

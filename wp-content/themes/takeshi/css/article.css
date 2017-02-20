@@ -1,14 +1,11 @@
-@charset "UTF-8";
-article {
-  font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif;
-}
 article .contents_wrapper {
   position: relative;
   z-index: 2;
   background-color: #fff;
 }
 article .contents_wrapper .contents {
-  width: 760px;
+  width: 90%;
+  max-width: 760px;
   margin: 0 auto;
   padding: 40px 0 0;
 }
@@ -33,7 +30,6 @@ article .contents_wrapper .contents .post_content h3 {
 article .contents_wrapper .contents .post_content h1, article .contents_wrapper .contents .post_content h2, article .contents_wrapper .contents .post_content h3, article .contents_wrapper .contents .post_content h4, article .contents_wrapper .contents .post_content h5 {
   letter-spacing: .2rem;
   font-weight: bold !important;
-  font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif !important;
 }
 article .contents_wrapper .contents .post_content blockquote {
   padding: 10px 15px;

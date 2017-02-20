@@ -50,6 +50,31 @@
   transition: opacity 0.2s ease 0s;
   width: 100%;
   z-index: -1;
+  .menu_inner {
+    ul.menu_list {
+      list-style: none;
+      margin-left: 0;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+
+      display: inline-block;
+      // font-family: "p22-underground";
+      padding-top: 120px;
+      li {
+        border-bottom: 2px solid #fff;
+        line-height: 34px;
+        padding: 15px 87px 9px;
+        -webkit-transition: opacity 0.2s ease 0s;
+        transition: opacity 0.2s ease 0s;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 .show_menu {

@@ -1,28 +1,28 @@
-header .header_container {
-  z-index: 10;
+header#main_header {
+  border-bottom: 1px groove rgba(68, 67, 67, 0.43);
+  padding: 22px 0 15px;
+  text-align: center;
   background: #fff;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid #333;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
 }
-header .header_container .main_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+header#main_header .header_container {
   position: relative;
+  width: 100%;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 13px 0;
-  width: 960px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
-header .header_container .main_header h2 {
-  margin: 0;
+header#main_header .header_container .header_logo h1.header_title {
   padding: 0;
+  margin: 0;
+  display: inline;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  font-style: italic;
+}
+header#main_header .header_container .hamburger {
+  float: right;
 }
 
 /*# sourceMappingURL=header.css.map */

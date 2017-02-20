@@ -1,11 +1,12 @@
 article {
-  font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif;
+  // font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif!important;
   .contents_wrapper {
     position: relative;
     z-index: 2;
     background-color: #fff;
     .contents {
-      width: 760px;
+      width: 90%;
+      max-width: 760px;
       margin: 0 auto;
       padding: 40px 0 0;
       .post_content {
@@ -30,7 +31,7 @@ article {
         h1, h2, h3, h4, h5 {
           letter-spacing: .2rem;
           font-weight: bold !important;
-          font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif !important;
+          // font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif !important;
         }
         ul {
           li {

@@ -1,24 +1,39 @@
 body {
   background-color: #f7f9f9!important;
+  font: 14px/1.6 "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif!important;
+  // font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", HiraMinProN-W3, 游明朝, YuMincho, メイリオ, Meiryo, FontAwesome, serif!important;
 }
 a:hover {
   text-decoration: none;
 }
 
 
+
 .content_header {
   background-color: rgba(0,0,0,0.6);
   .content_header_inner {
     position: relative;
-    width: 820px;
-    height: 480px;
+    width: 100%;
+    max-width: 820px;
     margin: 0 auto;
-    padding-top: 180px;
+    @media screen and (min-width: 0px) and (max-width: 699px) {
+      height: 300px;
+      padding-top: 105px;
+    }
+    @media screen and (min-width: 700px) and (max-width: 1099px) {
+      height: 400px;
+      padding-top: 150px;
+    }
+    @media screen and (min-width: 1100px)  {
+      height: 480px;
+      padding-top: 180px;
+    }
     h1 {
       font-size: 4rem;
       line-height: 1.6;
       text-align: center;
       color: #fff;
+      text-transform: uppercase;
     }
     ul.meta_contents {
       position: absolute;
@@ -57,7 +72,7 @@ a:hover {
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 580px;
+    height: 590px;
     background: 0;
     background-color: rgba(0,0,0,.6);
     background-repeat: no-repeat;
@@ -78,53 +93,73 @@ a:hover {
   .contents {
     margin: 0 auto;
     padding: 35px 0 10px;
-    width: 1050px;
+    @media screen and (min-width: 0px) and (max-width: 699px) {
+      width: 90%; //修正の余地あり
+
+    }
+    @media screen and (min-width: 700px) and (max-width: 1099px) {
+      width: 690px;
+    }
+    @media screen and (min-width: 1100px)  {
+      width: 1050px;
+    }
     ul.article_list {
       margin: 0;
       padding: 0;
-      li.article_box {
-        list-style: none;
-        float: left;
-        width: 300px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-        position: relative;
-        .img_overlay {
-          position: absolute;
-          z-index: 50;
-          background: #d2d0d0;
-          opacity: 0.15;
-          width: 100%;
-          height: 100%;
-        }
-        .img_box {
-          position: relative;
-          img {
-            width: 300px;
-            height: 230px;
-            border-radius: 5px;
-          }
-        }
-        .text_box {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          z-index: 60;
-          color: #fff;
-          font-weight: bold;
-          top: 0;
-          left: 0;
-          .text_area {
-            position: absolute;
-            left: 15px;
-            bottom: 25px;
-            padding: 0 15px 0 0;
-          }
-        }
-        &:nth-child(3n) {
-          margin-right: 0px;
-        }
-      }
+      // li.article_box {
+      //   list-style: none;
+      //   float: left;
+      //   width: 330px;
+      //   margin-right: 30px;
+      //   @media screen and (min-width: 0px) and (max-width: 699px) {
+      //     width: 100%!important;
+      //     margin: 0;
+      //   }
+      //   @media screen and (min-width: 700px) and (max-width: 1099px) {
+      //     &:nth-child(2n) {
+      //       margin-right: 0px;
+      //     }
+      //   }
+      //   @media screen and (min-width: 1100px)  {
+      //     &:nth-child(3n) {
+      //       margin-right: 0px;
+      //     }
+      //   }
+      //   margin-bottom: 30px;
+      //   position: relative;
+      //   .img_overlay {
+      //     position: absolute;
+      //     z-index: 50;
+      //     background: #d2d0d0;
+      //     opacity: 0.15;
+      //     width: 100%;
+      //     height: 100%;
+      //   }
+      //   .img_box {
+      //     position: relative;
+      //     img {
+      //       width: 330px;
+      //       height: 230px;
+      //       border-radius: 5px;
+      //     }
+      //   }
+      //   .text_box {
+      //     position: absolute;
+      //     width: 100%;
+      //     height: 100%;
+      //     z-index: 60;
+      //     color: #fff;
+      //     font-weight: bold;
+      //     top: 0;
+      //     left: 0;
+      //     .text_area {
+      //       position: absolute;
+      //       left: 15px;
+      //       bottom: 25px;
+      //       padding: 0 15px 0 0;
+      //     }
+      //   }
+      // }
     }
   }
 }

@@ -38,7 +38,7 @@
 
 .featured-story .header-group,
 .featured-story h2 {
-  margin: 0;
+  margin: 10px;
 }
 
 .featured-story h2 {
@@ -46,6 +46,7 @@
 }
 
 .featured-story-summary {
+  margin: 20px 0 5px;
   font-size: 14px;
   min-height: 38px;
   opacity: 0;

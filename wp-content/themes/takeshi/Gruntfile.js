@@ -35,7 +35,8 @@ module.exports = function (grunt) {
             'css/about.css',
             'css/menu.css',
             'css/hover.css',
-            'css/category_box.css'
+            'css/category_box.css',
+            'css/404.css'
           ]
         }
       }
@@ -63,7 +64,8 @@ module.exports = function (grunt) {
           'css/about.css',
           'css/menu.css',
           'css/hover.css',
-          'css/category_box.css'
+          'css/category_box.css',
+          'css/404.css'
         ],
         tasks: ['cssmin']
       }

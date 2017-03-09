@@ -50,7 +50,7 @@
           $category_image = get_field('category-image', 'category_' . $catIDs[$i]);
           $image = wp_get_attachment_image_src($category_image, 'full')[0];
         ?>
-        <div class="category_box">
+        <div class="category_box" style="background-image: url(<?php echo $image ?>);">
           <a href="<?php echo get_category_link($catIDs[$i]); ?>">
             <div class="title_box">
               <h2><?php echo get_catname($catIDs[$i]); ?></h2>

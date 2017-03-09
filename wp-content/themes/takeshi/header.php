@@ -48,7 +48,7 @@
 <header id="main_header">
   <div class="header_container clearfix">
     <div class="sns_icons"></div>
-    <a href="/wordpress/" class="header_logo">
+    <a href="<?php echo home_url(); ?>" class="header_logo">
       <h1 class="header_title">On the road</h1>
       <!-- <img src="https://d2hi3epuv5qhwt.cloudfront.net/assets/renewal/logo-2256c44c102d2e23c5303d219bf09b85.svg" alt=""> -->
     </a>
@@ -63,18 +63,16 @@
 <div class="menu_wrapper" id="js-menu">
 <div class="menu_inner">
   <ul class="menu_list">
-    <li><a href="/wordpress/">HOME</a></li>
-    <li><a href="/wordpress/about">ABOUT</a></li>
-    <li><a href="/wordpress/category/travel">BLOG</a></li>
-    <li><a href="/wordpress/category/travel">CATEGORIES</a></li>
-    <li><a href="/wordpress/contact">CONTACT</a></li>
+    <li><a href="<?php echo home_url(); ?>">HOME</a></li>
+    <li><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
+    <li><a href="<?php echo home_url(); ?>/category/blog">BLOG</a></li>
+    <li><a href="<?php echo home_url(); ?>/category/travel">TRAVEL</a></li>
+    <li><a href="<?php echo home_url(); ?>/categories">CATEGORIES</a></li>
+    <li><a href="<?php echo home_url(); ?>/contact">CONTACT</a></li>
   </ul>
 </div>
 </div>
-
-
 <!-- ==========================================HEADER========================================== -->
-
 
 
 

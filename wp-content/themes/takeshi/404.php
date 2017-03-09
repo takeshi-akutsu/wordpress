@@ -10,9 +10,19 @@
 get_header(); ?>
 
 
-<header class="page-header">
-	<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'takeshi' ); ?></h1>
-</header>
+<div id="error404">
+  <div class="inner_center">
+    <div class="eye-catch-section">
+      <div class="temp404">
+        <p>404 ERROR</p>
+      </div>
+    </div>
+    <div class="message-section">
+      <h1>このページはまだ準備中です</h1>
+      <a href="<?php echo home_url(); ?>">トップページへ</a>
+    </div>
+  </div>
+</div>
 
 <?php
 get_footer();

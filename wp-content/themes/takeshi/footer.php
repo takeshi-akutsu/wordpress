@@ -23,19 +23,19 @@
       <div class="footer_menu">
         <ul class="sns_buttons">
           <li>
-            <a href="/wordpress/"><i class="fa fa-home" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="ホームに戻る"></i><br>home</a>
+            <a href="<?php echo home_url(); ?>"><i class="fa fa-home" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="ホームに戻る"></i><br>home</a>
           </li>
           <li>
-            <a href="/wordpress/about/"><i class="fa fa-info-circle" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="このサイトについて"></i><br>about</a>
+            <a href="<?php echo home_url(); ?>/about/"><i class="fa fa-info-circle" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="このサイトについて"></i><br>about</a>
           </li>
           <li>
-            <a href="/wordpress/blog/" rel="nofollow"><i class="fa fa-pencil" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="ブログ"></i><br>blog</a>
+            <a href="<?php echo home_url(); ?>/blog/" rel="nofollow"><i class="fa fa-pencil" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="ブログ"></i><br>blog</a>
           </li>
           <li>
-            <a href="/wordpress/category/travel"><i class="fa fa-music" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="Travel"></i><br>travel</a>
+            <a href="<?php echo home_url(); ?>/category/travel"><i class="fa fa-music" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="Travel"></i><br>travel</a>
           </li>
           <li>
-            <a href="/wordpress/sitemap"><i class="fa fa-music" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="Sitemap"></i><br>sitemap</a>
+            <a href="<?php echo home_url(); ?>/sitemap"><i class="fa fa-music" style="color:#7F7F7F;font-size:2em;vertical-align:middle;" title="Sitemap"></i><br>sitemap</a>
           </li>
         </ul>
       </div>

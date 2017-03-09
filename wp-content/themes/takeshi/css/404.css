@@ -1,0 +1,14 @@
+#error404 {
+  height: 70vh;
+  text-align: center;
+}
+#error404 .eye-catch-section .temp404 p {
+  font-size: 100px;
+  font-weight: 500;
+}
+#error404 .message-section a {
+  display: block;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=404.css.map */

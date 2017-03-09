@@ -64,8 +64,9 @@
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
+  max-width: 100%;
   display: inline-block;
-  padding-top: 120px;
+  padding: 120px 0 0;
 }
 .menu_wrapper .menu_inner ul.menu_list li {
   border-bottom: 2px solid #fff;
@@ -77,6 +78,11 @@
 .menu_wrapper .menu_inner ul.menu_list li a {
   color: #fff;
   text-decoration: none;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .menu_wrapper .menu_inner ul.menu_list li {
+    padding: 15px 45px 9px;
+  }
 }
 
 .show_menu {
